@@ -11,8 +11,7 @@ public class Login_Method {
 
     public static void main(String[] args){
     	
-    	Valid_Login_Scenarion();
-    	
+    	LoginByInput();
     }
 
     public static void LoginByInput(){
@@ -76,6 +75,7 @@ public class Login_Method {
         driver.findElement(By.xpath(
                 "/html[1]/body[1]/div[1]/div[1]/section[1]/div[1]/div[1]/article[1]/div[2]/div[1]/div[1]/div[1]/a[1]"))
                 .click();
+                driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.getTitle();
 
         driver.quit();
