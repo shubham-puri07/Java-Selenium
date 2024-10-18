@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Automation\Java_Selenium"/>
 			<item value="C:\Automation"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,10 +27,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="org.EcommerceSite"/>
 		</list>
 		<list key="groupId">
+			<item value="com.automation"/>
 		</list>
 		<list key="artifactId">
+			<item value="EcommerceSite"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -45,10 +49,14 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.automation"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="EcommerceSite"/>
+			<item value="seleniumjava-projects"/>
+			<item value="Ecommerce"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -80,5 +88,26 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+			<item value="EcommerceSite"/>
+			<item value="Ecommerce"/>
+			<item value="WikipediaSite"/>
+			<item value="Java_Selenium-Ecommerce-site"/>
+			<item value="EcommerceSite-Automation"/>
+			<item value="EcommerceSite_Automation"/>
+			<item value="ec"/>
+			<item value="ecommerce-automation"/>
+			<item value="Project_Java_Selenium"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
 	</section>
 </section>
