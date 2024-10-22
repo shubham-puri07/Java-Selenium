@@ -1,0 +1,6 @@
+Code 1 --> 
+    
+Navigating to Gmail and logging in adding the credential (currently doing manually)
+Searching for emails --> Provide the input - required subject line.
+The code will Retrive the most recent email content subject line present in the inbox.
+The code 
