@@ -1,2 +1,1 @@
-Genentech Project automation code scripts.
-Added the scripts to test the web element: Title meta, json, PDF files metadata.
+Added the script which validate the metadata of the website.
