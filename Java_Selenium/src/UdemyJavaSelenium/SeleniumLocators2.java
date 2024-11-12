@@ -4,8 +4,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import Utility.basepackage;
 
-class SeleniumLocators2 extends Utility{
+class SeleniumLocators2 extends basepackage{
        
     public static void main(String[] args) throws InterruptedException {
     
