@@ -1715,3 +1715,4 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.lo
 2024-10-21 23:14:09,568 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2024-10-21 23:14:15,645 [Worker-5: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: Java_Selenium:Java_Selenium:0.0.1-SNAPSHOT @ C:\Automation\Java_Selenium\pom.xml.
 2024-10-21 23:14:22,795 [Worker-2: Deferred Early Start] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (java.net.SocketException) caught when processing request to {s}->https://www.eclipse.org:443
+2024-11-14 22:54:24,721 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

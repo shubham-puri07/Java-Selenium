@@ -59,11 +59,11 @@
 			<version>5.8.0</version>
 		</dependency>
 
-	<dependency>
+	<!-- <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-chrome-driver</artifactId>
         <version>4.26.0</version>
-    </dependency>
+    </dependency> -->
 
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
