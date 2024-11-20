@@ -28,20 +28,11 @@ public class PracticeQ1 {
         System.out.println("Enter the option that needs to be selected (10, 20, 50, or 100):");
         int option2 = sc.nextInt();
         switch (option2) {
-            case 10:dropdown2.selectByValue("10");
-                break;
-            case 20:
-                dropdown2.selectByValue("20");
-                break;
-            case 50:
-                dropdown2.selectByValue("50");
-                break;
-            case 100:
-                dropdown2.selectByValue("100");
-                break;
-            default:
-                System.out.println("Invalid option selected");
-                break;
+            case 10 -> dropdown2.selectByValue("10");
+            case 20 -> dropdown2.selectByValue("20");
+            case 50 -> dropdown2.selectByValue("50");
+            case 100 -> dropdown2.selectByValue("100");
+            default -> System.out.println("Invalid option selected");
         }
         //System.out.println(dropdown2.getFirstSelectedOption().getText());
         driver.close();
