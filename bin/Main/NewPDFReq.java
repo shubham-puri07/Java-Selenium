@@ -33,7 +33,7 @@ public class NewPDFReq {
         List<String> urls = loadURLsFromExcel(inputFilePath);
 
         // Set up WebDriver
-        WebDriverManager.chromedriver().setup();
+//        WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
 
         // Store output data

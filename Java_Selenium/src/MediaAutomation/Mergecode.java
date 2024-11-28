@@ -20,7 +20,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Mergecode {
 
-    private static final String PDF_FILE_PATH = "C:\\Users\\shubham.puri\\Desktop\\TestMedia\\Input\\testPDF.pdf";
+    private static final String PDF_FILE_PATH = "C:\\Users\\shubham.puri\\Desktop\\TestMedia\\Input\\AFD file.pdf";
     private static final String FINAL_OUTPUT_PATH = "C:\\Users\\shubham.puri\\Desktop\\TestMedia\\Output\\FinalOutput.txt";
 
     public static void main(String[] args) {

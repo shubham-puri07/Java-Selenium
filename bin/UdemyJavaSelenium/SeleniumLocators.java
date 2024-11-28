@@ -5,7 +5,8 @@ import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class SeleniumLocators extends Utility{
+import Utility.basepackage;
+public class SeleniumLocators extends basepackage{
 
     public static void main(String[] args) throws InterruptedException {
         driver = new ChromeDriver();
@@ -42,7 +43,7 @@ public class SeleniumLocators extends Utility{
 static void Practicecode() throws InterruptedException {
 
     //this code is refered from udemy course
-
+driver.manage().window().maximize();
 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 driver.get("https://rahulshettyacademy.com/locatorspractice/");
 driver.findElement(By.id("inputUsername")).sendKeys("rahul");
@@ -64,5 +65,6 @@ driver.findElement(By.cssSelector("#inputUsername")).sendKeys("rahul");
 driver.findElement(By.cssSelector("input[type*='pass']")).sendKeys("rahulshettyacademy");
 driver.findElement(By.id("chkboxOne")).click();
 driver.findElement(By.xpath("//button[contains(@class,'submit')]")).click();
+driver.getTitle();
     }
 }
