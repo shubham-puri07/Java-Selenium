@@ -1,4 +1,4 @@
-package UdemyJavaSelenium.Dropdowns;
+package UdemyJavaSelenium.Assignments;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class tst {
+public class Assignment1 {
     public static void main(String[] args) {
         
         WebDriver driver = new ChromeDriver();
