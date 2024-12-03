@@ -15,7 +15,7 @@ public class Alert {
         // driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("name")));
-        
+
         driver.findElement(By.id("name")).sendKeys("Shubham");
         driver.findElement(By.cssSelector("input[value='Alert']")).click();
         System.out.println(driver.switchTo().alert().getText());

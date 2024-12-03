@@ -3,7 +3,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class LectureExerciseCode_67th {
+public class Lecture67th_ExerciseCode {
 public static void main(String[] args) throws InterruptedException {
 
 WebDriver driver=new FirefoxDriver();
