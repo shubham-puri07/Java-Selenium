@@ -42,5 +42,6 @@ public class Form_Method {
 
         // Click Submit
         driver.findElement(By.id("submit")).click();
+        driver.close();
     }
 }
